@@ -1,0 +1,29 @@
+# Real data — never commit actual entries
+*.csv
+data/*.csv
+echo_entries.csv
+
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+.venv/
+
+# NLTK downloaded data (auto re-downloads, no need to track)
+nltk_data/
+
+# Node / React
+node_modules/
+build/
+dist/
+.env
+.env.local
+
+# IDE/OS clutter
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
